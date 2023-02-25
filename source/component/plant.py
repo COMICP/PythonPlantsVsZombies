@@ -1,10 +1,12 @@
 __author__ = 'marble_xu'
 
+
+from plantClass import Plant 
 import random
 import pygame as pg
 from .. import tool
 from .. import constants as c
-from plantClass import Plant 
+
 
 class Car(pg.sprite.Sprite):
     def __init__(self, x, y, map_y):
